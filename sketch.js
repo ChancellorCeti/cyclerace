@@ -140,7 +140,7 @@ function draw() {
     redCG.setVelocityXEach(0);
     redCG.setLifetimeEach(-1);
 
-    if(keyWentDown("UP_ARROW")){
+    if(keyDown("UP_ARROW")){
       reset();
     }
     //write condition for calling reset( )
